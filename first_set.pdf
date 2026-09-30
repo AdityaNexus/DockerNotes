@@ -1,0 +1,32 @@
+why Docker ?
+ environment reproducibility
+ dependency management
+ portability
+ version control for environments
+
+
+what is server ?
+  a powerful computing device with 
+  . a good size memory
+  . one or more cpu
+  . one more disk 
+  . one more network 
+  . one more gcpu 
+  . an operating system 
+
+  scaling server means adding more server to handle the more user like datacenter 
+
+  >virtualization introduce isolation fexibility portability and scalibilty
+   it enabeles us to run ore than one VM , multiple OS , and application on single physical server
+>the hypervisor shares the physical server resourve and VM .
+>each VM gets its :
+> virtual network interface card
+>virtua disk
+>virtua ram
+>virtual cpu 
+
+COntainer overview 
+ A container is lightweight , isolaed process running on a shared operating system kernel , packaged , with everythingit needs to run , including code , lib , nv
+ variables , runtime and configuration files .
+ . we can run applications inside containers
+ <img width="113" height="156" alt="image" src="https://github.com/user-attachments/assets/815ad846-e817-49a9-8254-934e39b3fd0d" />
